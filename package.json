@@ -1,0 +1,28 @@
+{
+  "name": "nodesimpleapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoloDuoCorp/nodeSimpleApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoloDuoCorp/nodeSimpleApi/issues"
+  },
+  "homepage": "https://github.com/SoloDuoCorp/nodeSimpleApi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cron": "^1.7.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-limiter": "^1.6.1",
+    "memory-cache": "^0.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
